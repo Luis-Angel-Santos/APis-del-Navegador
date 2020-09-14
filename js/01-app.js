@@ -16,8 +16,8 @@ verNotificacion.addEventListener('click', () => {
             body: 'Codigo con Angel'
         });
 
-        notificacion.onclick = function(){
+        /*notificacion.onclick = function(){
             window.open('https://github.com/Luis-Angel-Santos')
-        }
+        }*/
     }
 });
