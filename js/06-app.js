@@ -23,10 +23,10 @@ function ejecutarSpeedAPI(){
         const {confidence, transcript} = e.results[0][0];
 
         const speech=document.createElement('p');
-        speech.innerHTML='Grabado: ${transcript}';
+        speech.innerHTML=`Grabado: ${transcript}`;
 
         const seguridad=document.createElement('p');
-        seguridad.innerHTML='Seguridad: ${parseint(confidence*100)}';
+        seguridad.innerHTML=`Seguridad: ${parseint(confidence*100)}`;
 
         salida.appendChild(speech);
         salida.appendChild(seguridad);
